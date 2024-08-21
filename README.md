@@ -28,4 +28,4 @@ Une fois l'application lancée, vous pouvez commencer à ajouter des dépenses, 
 Les contributions sont les bienvenues ! Pour toute suggestion ou amélioration, veuillez ouvrir une issue ou soumettre une pull request.
 
 ## Licence
-Ce projet est sous licence MIT. Veuillez consulter le fichier (LICENSE) pour plus de détails.
+Ce projet est sous licence MIT. Veuillez consulter le fichier pour plus de détails.

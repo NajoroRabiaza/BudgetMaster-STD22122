@@ -1,14 +1,13 @@
 package com.suivi;
-
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Expense {
     private String description;
     private int montant;
     private String category;
-    private Date date;
+    private LocalDate date;
 
-    public Expense(String description, int montant, String category, Date date) {
+    public Expense(String description, int montant, String category, LocalDate date) {
         this.description = description;
         this.montant = montant;
         this.category = category;
