@@ -1,6 +1,8 @@
 package com.suivi;
 
 import java.time.LocalDate;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class UserProfile {
@@ -25,6 +27,12 @@ public class UserProfile {
     }
 
     //2. Afficher toutes les depenses
-    public void displayExpense() {}
+    public void displayExpense() {
+        Collections.sort(expenses, Comparator.comparing(Expense::getDate));
+        for (Expense depense : expenses) {
+            System.out.println(depense);
+        }
+    }
 
+    //3.
 }
