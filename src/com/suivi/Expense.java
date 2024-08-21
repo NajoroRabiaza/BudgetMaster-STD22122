@@ -2,6 +2,7 @@ package com.suivi;
 import java.time.LocalDate;
 
 public class Expense {
+    private int id;
     private String description;
     private int montant;
     private String category;
@@ -38,11 +39,11 @@ public class Expense {
         this.category = category;
     }
 
-    public Date getDate() {
+    public LocalDate getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(LocalDate date) {
         this.date = date;
     }
 }

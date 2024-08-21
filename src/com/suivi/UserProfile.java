@@ -1,10 +1,10 @@
 package com.suivi;
-import java.time.LocalDate;
 
+import java.time.LocalDate;
 import java.util.List;
 
 public class UserProfile {
-    private id;
+    private int id;
     private String userName;
     private int mensualBudget;
     List<Expense> expenses;
@@ -25,6 +25,6 @@ public class UserProfile {
     }
 
     //2. Afficher toutes les depenses
-    public void
-    
+    public void displayExpense() {}
+
 }
